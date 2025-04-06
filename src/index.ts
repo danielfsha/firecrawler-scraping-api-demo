@@ -18,8 +18,6 @@ const firecrawl = new FirecrawlApp({
     apiKey: process.env.FIRECRAWL_API_KEY
 })
 
-
-
 app.post('/scrape', async (req, res) => {
     const { URL } = req.body
 
